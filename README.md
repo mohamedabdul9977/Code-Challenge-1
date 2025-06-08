@@ -24,6 +24,7 @@ This JavaScript program calculates the amounts of basic ingredients needed to ma
 3. Enter the desired number of chai cups.
 4. View the calculated ingredients in the browser console.
 
+
 # Challenge 2: Boda Boda Ride Fare Estimator
 
 This simple JavaScript program estimates the cost of a boda boda ride based on the distance traveled.
@@ -43,3 +44,24 @@ This simple JavaScript program estimates the cost of a boda boda ride based on t
 - The program calculates the fare using the formula:  
   `totalFare = baseFare + (distanceInKm * chargePerKm)`
 - The results are printed to the browser console in a friendly tone.
+
+
+# Challenge 3: Simplified Mobile Money Transaction Fee Estimator 
+
+This is a simple JavaScript program that estimates the transaction fee for sending money, based on a simplified fee structure.
+
+## Problem Statement
+
+The goal is to help users understand how much they will be charged for a money transfer, and the total amount debited from their account.
+
+## Simplified Fee Structure
+
+- Basic transaction fee is **1.5%** of the amount being sent.
+- The **minimum fee** is **KES 10**.
+- The **maximum fee** is **KES 70**.
+
+## Features
+
+- Prompts the user to enter the amount of money they wish to send.
+- Calculates the correct transaction fee based on rules above.
+- Outputs the transaction fee and total amount to be debited in a clean format.
