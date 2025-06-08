@@ -23,3 +23,23 @@ This JavaScript program calculates the amounts of basic ingredients needed to ma
 2. Run the program and it will prompt you to enter the number of cups.
 3. Enter the desired number of chai cups.
 4. View the calculated ingredients in the browser console.
+
+# Challenge 2: Boda Boda Ride Fare Estimator
+
+This simple JavaScript program estimates the cost of a boda boda ride based on the distance traveled.
+
+## Fare Calculation Rules
+
+- **Base Fare:** KES 50 (applied to every ride)
+- **Per Kilometer Charge:** KES 15 per kilometer
+
+
+
+## How It Works
+
+- The program prompts the user:  
+  `Unafika wapi Mkubwa? Kilometer ngapi?:`
+- The user enters the number of kilometers for their trip.
+- The program calculates the fare using the formula:  
+  `totalFare = baseFare + (distanceInKm * chargePerKm)`
+- The results are printed to the browser console in a friendly tone.
