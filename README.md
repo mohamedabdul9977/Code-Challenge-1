@@ -65,3 +65,9 @@ The goal is to help users understand how much they will be charged for a money t
 - Prompts the user to enter the amount of money they wish to send.
 - Calculates the correct transaction fee based on rules above.
 - Outputs the transaction fee and total amount to be debited in a clean format.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+© 2025 Mohamed Abdulrashid
