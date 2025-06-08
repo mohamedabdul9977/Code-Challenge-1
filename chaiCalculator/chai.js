@@ -20,13 +20,15 @@ function calculateChaiIngredients () {
             Enjoy your Chai Bora!`)
     //I used the else statement to represent any other value apart from 1 cup which then I multiply by the number of cups the user has put in to give them the correct values for the ingredients for the recipe.
     } else {
-        console.log(`To make ${numberOfCups} cups of Kenyan Chai, you will need:\n
-            Water: ${water * numberOfCups} ml \n
-            Milk: ${milk * numberOfCups} ml \n
-            Tea Leaves (Majani): ${majani * numberOfCups} tablespoons \n
-            Sugar (Sukari): ${sugar * numberOfCups} teaspoons \n
+        console.log(`
+            To make ${numberOfCups} cups of Kenyan Chai, you will need:
+            Water: ${water * numberOfCups} ml 
+            Milk: ${milk * numberOfCups} ml 
+            Tea Leaves (Majani): ${majani * numberOfCups} tablespoons 
+            Sugar (Sukari): ${sugar * numberOfCups} teaspoons 
             
-            Enjoy your Chai Bora!`)
+            Enjoy your Chai Bora!
+            `)
     }
     //Finally I return the numberOfCups.
     return numberOfCups

@@ -10,20 +10,24 @@ function calculateBodaFare() {
     const totalFare = baseFare + (distanceInKm * chargePerKm);
 //I used this if statement incase the user put a distance that was not far
     if (distanceInKm <= 4) {
-        console.log(`Uko si mbali hadi. Io ni ${distanceInKm} km:
+        console.log(`
+            Uko si mbali hadi. Io ni ${distanceInKm} km:
             Ukikalia Pikipiki: KES ${baseFare}
             Mpaka Uko: KES ${distanceInKm * chargePerKm}
             Total: KES ${totalFare}
             
-            Panda Pikipiki!`);
+            Panda Pikipiki!
+            `);
 //I used this else statement incase the user put in a distance that was far            
     } else {
-        console.log(`Uko kwote? Io ni ${distanceInKm} km:
+        console.log(`
+            Uko kwote? Io ni ${distanceInKm} km:
             Ukikalia Pikipiki: KES ${baseFare}
             Mpaka Uko: KES ${distanceInKm * chargePerKm}
             Total: KES ${totalFare}
             
-            Panda Pikipiki!`);
+            Panda Pikipiki!`
+        );
     }
 //I return the distanceInKm    
     return distanceInKm;
