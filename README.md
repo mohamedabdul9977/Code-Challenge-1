@@ -7,12 +7,12 @@ First thing I did was install the prompt dependencies so that I can run the code
 
 ## Steps
 
-1.Run `npm init`.
-2.Name the package.
-3.Describe it.
-4.Name the author.
-5.Then you run `npm install prompt-sync`.
-6.Finally you declare the variable prompt in your code by using `var prompt = require("prompt-sync") ();`.
+1. Run `npm init`.
+2. Name the package.
+3. Describe it.
+4. Name the author.
+5. Then you run `npm install prompt-sync`.
+6. Finally you declare the variable prompt in your code by using `var prompt = require("prompt-sync") ();`.
 
 # Challenge 1: Chai Bora Ingredient Calculator
 
