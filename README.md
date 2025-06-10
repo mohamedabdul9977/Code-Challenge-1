@@ -1,5 +1,19 @@
 # Code-Challenge-1
 Code Challenge
+
+## Install prompt dependencies
+
+First thing I did was install the prompt dependencies so that I can run the code on the terminal.
+
+## Steps
+
+1.Run `npm init`.
+2.Name the package.
+3.Describe it.
+4.Name the author.
+5.Then you run `npm install prompt-sync`.
+6.Finally you declare the variable prompt in your code by using `var prompt = require("prompt-sync") ();`.
+
 # Challenge 1: Chai Bora Ingredient Calculator
 
 This JavaScript program calculates the amounts of basic ingredients needed to make a specific number of cups of Kenyan Chai based on a standard recipe.

@@ -1,3 +1,4 @@
+var prompt = require("prompt-sync") ();
 //The function
 function calculateBodaFare() {
 //This prompts the user to enter the distance of their trip in kilometers.

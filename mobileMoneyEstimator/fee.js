@@ -1,3 +1,4 @@
+var prompt = require("prompt-sync") ();
 //The Function.
 function estimateTransactionFee() {
     const input = prompt(`Unatuma Ngapi? (KES):`);
